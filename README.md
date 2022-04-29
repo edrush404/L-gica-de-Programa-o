@@ -1,4 +1,4 @@
-# Logica-de-Programacao
+# Logica de Programacao
 
 ### Nesse repositorio vamos botar tudo que vamos estudar na materia de Logica de programação.
 
