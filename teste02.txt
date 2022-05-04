@@ -1,0 +1,16 @@
+Trocar de lampada
+
+	desligar energia
+	pegar uma escada
+	ir ao local de trocar a lampada
+	subir a escada
+	tirar a lampada queimada
+	colocar a lampada nova
+
+	descer da escada
+	jogar lampada queimada
+	ligar energia
+
+	fim
+	
+	
