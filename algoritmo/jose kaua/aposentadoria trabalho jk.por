@@ -1,6 +1,10 @@
 programa
 {
-	
+	 //inteiro
+	 //real
+	 //cadeia
+	 //caracter
+	 
 	funcao inicio()
 	{
 	inteiro anoNascimento,anoAtual,anoTotal,aposentadoria,anosFaltando,tempoContribuicao,contribuicao = 35,contribuicaoTotal
@@ -62,7 +66,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 34; 
+ * @POSICAO-CURSOR = 58; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
