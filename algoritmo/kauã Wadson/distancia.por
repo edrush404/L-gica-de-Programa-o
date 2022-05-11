@@ -7,6 +7,8 @@ programa
 	// 130000 130km/h
 	// 7,22km/h
 	inclua biblioteca Matematica --> mat
+	inclua biblioteca Tipos --> t
+	
 	funcao inicio () 
 	{
 		inteiro consumo = 16,cg,kmHora=130,valor
@@ -18,7 +20,7 @@ programa
 		vm = mat.arredondar(kmHora / hora,2)
 		cg = kmHora / consumo
 		
-		valor = gasolina * cg
+		valor = t.real_para_inteiro(gasolina * cg)
 		
 		escreva("Essa foi sua velocidade media ",vm,"Km/h \n")
 		escreva(cg," Litros foi gasto nessa viagem \n")
@@ -33,7 +35,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 502; 
+ * @POSICAO-CURSOR = 247; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
