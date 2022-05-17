@@ -1,13 +1,14 @@
 programa
 {
-	inclua biblioteca Util --> utils
+	inclua biblioteca Util --> utils
 	
 	funcao inicio()
 	{
 		
-		cadeia user_usename = "admin",user_passwrod = "admin",name,password
+		cadeia tb_admin_u = "admin",tb_admin_p = "admin",name,password
 		
 		inteiro contador = 1,n1Sorteia,n2Sorteia,resultadoDigitado,result
+
 		
 		enquanto(contador <= 3){
 			
@@ -28,19 +29,15 @@ programa
 			
 			se(result == resultadoDigitado){
 				
-				se(user_usename == name e user_passwrod == password){
-					
+				se(tb_admin_u == name e tb_admin_p == password){
 					escreva("Olá, quanto tempo amigo")
-					
 					pare
+					
 				}senao{
 					escreva("Você errou o usuario ou a senha, Agora você tem ",contador,"/3 tentativas \n")
 				}
-				
 			}senao{
-				
 				escreva("Você errou a conta, agora você tem ",contador,"/3 tentativas \n")
-				
 			}
 			
 			contador++
@@ -52,7 +49,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 717; 
+ * @POSICAO-CURSOR = 236; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
