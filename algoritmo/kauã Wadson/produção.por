@@ -35,15 +35,9 @@ programa
 			escreva("A cada peças que você criou você recebe 3% do salario minimo \n")
 			escreva("Peças feitas ",cont," \n")
 			escreva("Porcentagem para cada peças 3% \n")
-			escreva("Então a comissão é: ",porsent," com todas as peças")
-			escreva(class," Recebeu a quantia de ",total," Reais")
-
+			escreva("Então a comissão é: ",porsent," com todas as peças\n")
+			escreva(class," Recebeu a quantia de ",total," Reais\n")
 			
-			escreva(total,"\n")
-			escreva(porsent,"\n")
-			escreva(salario,"\n")
-			escreva(cont)
-			//escreva(total)
 		}
 		
 		
@@ -54,7 +48,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 957; 
+ * @POSICAO-CURSOR = 969; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
