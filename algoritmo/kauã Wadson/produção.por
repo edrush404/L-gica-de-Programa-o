@@ -31,6 +31,13 @@ programa
 			porsent = porsent * cont
 			salario = salario * cont
 			total = salario + porsent
+
+			escreva("A cada peças que você criou você recebe 3% do salario minimo \n")
+			escreva("Peças feitas ",cont," \n")
+			escreva("Porcentagem para cada peças 3% \n")
+			escreva("Então a comissão é: ",porsent," com todas as peças")
+			escreva(class," Recebeu a quantia de ",total," Reais")
+
 			
 			escreva(total,"\n")
 			escreva(porsent,"\n")
@@ -47,7 +54,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 565; 
+ * @POSICAO-CURSOR = 957; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
