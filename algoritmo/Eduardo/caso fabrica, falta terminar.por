@@ -7,8 +7,11 @@ programa
 		inteiro ct=0, matricula=5,qtpecas=20
 		real salario=1.212
 		caracter genero
+
+		para(inteiro n=0; n<=4;n++){
+			
 		//definindo as perguntas para o usuario
-		escreva("Qual é a sua matricula? ")
+		escreva("\nQual é a sua matricula? ")
 		leia(matricula)
 		escreva("Quantas pecas fez no mês? ")
 		leia(qtpecas)
@@ -34,12 +37,13 @@ programa
 		}
 	}
 }
+}
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 977; 
+ * @POSICAO-CURSOR = 229; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
