@@ -12,10 +12,12 @@ programa
 		inteiro quantidadePecas[5],contagem = 21,conta = 0,totalPecas = 0,mediaM = 0,mediaH =0
 		real salario = 1212.00,porPecas,porsentTotal,total, totalSalario[5],folhaTotal = 0.0,operarioMaisdinheiro = 0.0
 		
-		para(inteiro i = 0; i<=5;i++){
+		para(inteiro i = 0; i<=4;i++){
 			
 			escreva("Qual seu numero de matricula?")
+			
 			leia(matricula[i])
+			
 			escreva("Qual seu genero?")
 			leia(genero[i])
 			escreva("Quantas peças você fez esse mês?")
@@ -112,7 +114,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 3227; 
+ * @POSICAO-CURSOR = 440; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {matricula, 11, 9, 9}-{genero, 11, 22, 6}-{quantidadePecas, 12, 10, 15}-{totalSalario, 13, 54, 12};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
