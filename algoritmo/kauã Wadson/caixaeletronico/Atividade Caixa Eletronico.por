@@ -31,10 +31,8 @@ programa
 	{
 		// alterações devem ser feitas aqui
 		notas_50 = valor_saque / 50 // siga esta ideia para programar as duas linhas abaixo
-		se(valor_saque == 20){
-			notas_20 = valor_saque / 20
-		}
-		notas_10 = 0
+		notas_20 = valor_saque % 50 / 20
+		notas_10 = valor_saque % 50 % 20 / 10
 	}
 
 
@@ -73,7 +71,7 @@ programa
 			desenha()
 			inteiro valor_clicado = processa_clique()
 			se (valor_clicado > 0) {
-				//escreva("Saque de ", valor_clicado, "\n")
+				escreva("Saque de ", valor_clicado, "\n")
 				processa_saque(valor_clicado)
 
 				
@@ -179,7 +177,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 733; 
+ * @POSICAO-CURSOR = 745; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
