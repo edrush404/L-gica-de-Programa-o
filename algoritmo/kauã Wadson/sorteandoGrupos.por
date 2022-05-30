@@ -6,7 +6,7 @@ programa
 	{
 		cadeia alunos[] = 
 			{"Teste00",
-			"Teste01",
+				"Teste01",
 			"Teste02",
 			"Teste03",
 			"Teste04",
@@ -71,7 +71,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 409; 
+ * @POSICAO-CURSOR = 103; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {alunos, 7, 9, 6}-{grupo1, 15, 19, 6}-{grupo2, 15, 29, 6}-{grupo3, 15, 39, 6};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
