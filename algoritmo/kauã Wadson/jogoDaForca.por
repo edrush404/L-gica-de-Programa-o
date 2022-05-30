@@ -1,7 +1,7 @@
 programa
 {
-	inclua biblioteca Util --> u
-	inclua biblioteca Texto --> t
+	inclua biblioteca Util --> u
+	inclua biblioteca Texto --> t
 	funcao inicio()
 	{
 		cadeia palavraD
@@ -10,18 +10,27 @@ programa
 
 		escreva("Qual palavra você quer na forca?\n\n")
 		leia(palavraD)
-
+		palavraD = t.caixa_baixa(palavraD)
+		
 		//Conta o tamanho da palavra por caracteres
 		tamanho = t.numero_caracteres(palavraD)
-		
+
 		para(inteiro posicao = 0;posicao < tamanho;posicao++){
 			letra = t.obter_caracter(palavraD, posicao)
+			se(letra == ' '){
+				palavra[posicao] = ' '
+			}
 			palavra[posicao] = letra
 		}
 		
 		//Aqui ele vai contar ate o tamanho da palavra e vai colocar " _ "
 		para(inteiro qLetras = 0;qLetras < tamanho;qLetras++){
-			formacao[qLetras] = '_'
+			letra = t.obter_caracter(palavraD, qLetras)
+			se(letra == ' '){
+				formacao[qLetras] = ' '
+			}senao{
+				formacao[qLetras] = '_'
+			}
 		}
 
 
@@ -78,7 +87,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1048; 
+ * @POSICAO-CURSOR = 520; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {palavra, 9, 17, 7}-{formacao, 9, 30, 8};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
