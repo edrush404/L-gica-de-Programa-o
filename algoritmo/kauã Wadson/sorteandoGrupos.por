@@ -6,7 +6,7 @@ programa
 	{
 		cadeia alunos[] = 
 			{"Teste00",
-				"Teste01",
+			"Teste01",
 			"Teste02",
 			"Teste03",
 			"Teste04",
@@ -41,15 +41,31 @@ programa
 					para(inteiro i = 0 ; i < tamanho ;i++){
 						sorteio = u.sorteia(0, taVetor)
 						nomeAluno = alunos[sorteio]
+	
 						se(grupos == 1){
-							grupo1[i] = nomeAluno
-							escreva("Nome sorteado ",nomeAluno,"\n")
+							se(nomeAluno == grupo1[i] e nomeAluno == grupo2[i] e nomeAluno == grupo3[i]){
+								escreva("Aluno foi repetido")	
+								pare
+							}senao{
+								grupo1[i] = nomeAluno
+								escreva("Nome sorteado ",nomeAluno,"\n")
+							}
 						}senao se(grupos == 2){
-							grupo2[i] = nomeAluno
-							escreva("Nome sorteado ",nomeAluno,"\n")
+							se(nomeAluno == grupo1[i] e nomeAluno == grupo2[i] e nomeAluno == grupo3[i]){
+								escreva("Aluno foi repetido")	
+								pare
+							}senao{
+								grupo2[i] = nomeAluno
+								escreva("Nome sorteado ",nomeAluno,"\n")
+							}
 						}senao se (grupos == 3){
-							grupo3[i] = nomeAluno
-							escreva("Nome sorteado ",nomeAluno,"\n")
+							se(nomeAluno == grupo1[i] e nomeAluno == grupo2[i] e nomeAluno == grupo3[i]){
+								escreva("Aluno foi repetido")	
+								pare
+							}senao{
+								grupo1[3] = nomeAluno
+								escreva("Nome sorteado ",nomeAluno,"\n")
+							}
 						}
 					}
 				pare
@@ -71,7 +87,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 103; 
+ * @POSICAO-CURSOR = 1162; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {alunos, 7, 9, 6}-{grupo1, 15, 19, 6}-{grupo2, 15, 29, 6}-{grupo3, 15, 39, 6};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
