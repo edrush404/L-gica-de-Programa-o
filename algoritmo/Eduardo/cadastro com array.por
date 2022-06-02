@@ -3,15 +3,15 @@ programa
 	
 	funcao inicio()
 	{
-      
-   		  inteiro cadastro, operacao, i
+    
+   		  inteiro cadastro, operacao, i, u=0
     		  cadeia cadastro_nome[50], cadastro_idade[50]
 
     		 	 escreva("quantos usuários serão cadastrados? ")
     		 	 leia(cadastro)
 		 	 limpa()
 		  para(i=0;i<cadastro;i++){
-	 	
+	 	      u++
 			 escreva("qual seu nome? ")
 			 leia(cadastro_nome[i])
 		 
@@ -19,7 +19,7 @@ programa
 			 leia(cadastro_idade[i])
 			 limpa()
 		  }
-		  para(i=0;i<10;i++){
+		  para(;u<10;u++){
 	 		 escreva("\nCadastrar novo usuário: 1 \nListar todos os usuários cadastrados: 2 \nSair do sistema: 3\n")
 	 		 leia(operacao)
 	 		 limpa()
@@ -27,10 +27,10 @@ programa
 		  se(operacao==1){
 			 escreva("Cadastrar novo usuário")
 			 escreva("\nqual seu nome? ")
-			 leia(cadastro_nome[i])
+			 leia(cadastro_nome[u])
 		 
 			 escreva("qual sua idade? ")
-			 leia(cadastro_idade[i])
+			 leia(cadastro_idade[u])
 		 	 limpa()
 
 		 }senao se(operacao==2){
@@ -53,7 +53,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 76; 
+ * @POSICAO-CURSOR = 697; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {cadastro_nome, 8, 15, 13}-{cadastro_idade, 8, 34, 14};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
