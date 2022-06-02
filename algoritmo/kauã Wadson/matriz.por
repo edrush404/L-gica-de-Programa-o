@@ -5,6 +5,7 @@ programa
 	{
 		cadeia time[6][3]
 		inteiro p1,p2
+		
 		escreva("Qual nome?")
 		leia(time[2][0])
 		escreva("Qual nome?")
@@ -24,7 +25,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 270; 
+ * @POSICAO-CURSOR = 71; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {time, 6, 9, 4};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
