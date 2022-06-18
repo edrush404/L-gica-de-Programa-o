@@ -2,7 +2,7 @@ programa
 {
 	inclua biblioteca Tipos
 	inclua biblioteca Arquivos
-	funcao registro(cadeia nome,inteiro idade,cadeia cabelo,cadeia rosto,real peso,real altura){
+	funcao registro(cadeia nome,inteiro idade,cadeia cabelo,cadeia rosto,real peso,real altura){
 		
 		cadeia arquivoNome = "personagens/"+nome+".txt"
 		inteiro endereco
@@ -35,7 +35,7 @@ programa
 		leia(idade)
 		limpa()
 		escreva("Qual tipo de cabelo seu personagem vai ter?")
-		leia(cabelo)
+		leia(cabelo)aaa
 		limpa()
 		escreva("Qual tipo de rosto seu personagem vai ter?")
 		leia(rosto)
@@ -54,7 +54,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 798; 
+ * @POSICAO-CURSOR = 1138; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
