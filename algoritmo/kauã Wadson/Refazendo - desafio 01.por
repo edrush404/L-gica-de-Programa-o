@@ -30,7 +30,6 @@ programa
 				enquanto(contagem <= quantidadePecas[i]){
 					conta++
 					contagem++
-					
 				}
 		
 				porPecas = salario * 0.05
@@ -114,7 +113,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 440; 
+ * @POSICAO-CURSOR = 2880; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {matricula, 11, 9, 9}-{genero, 11, 22, 6}-{quantidadePecas, 12, 10, 15}-{totalSalario, 13, 54, 12};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

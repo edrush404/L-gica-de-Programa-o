@@ -35,7 +35,7 @@ programa
 		leia(idade)
 		limpa()
 		escreva("Qual tipo de cabelo seu personagem vai ter?")
-		leia(cabelo)aaa
+		leia(cabelo)
 		limpa()
 		escreva("Qual tipo de rosto seu personagem vai ter?")
 		leia(rosto)
@@ -54,7 +54,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1138; 
+ * @POSICAO-CURSOR = 1135; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
