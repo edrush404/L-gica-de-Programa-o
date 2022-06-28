@@ -5,11 +5,14 @@ programa
 	inclua biblioteca Teclado --> t
 	
 	const inteiro LARGURA_JANELA = 600,ALTURA_JANELA = 600
+	inteiro pontuacao = 0
+	
 	funcao inicio()
 	{
 		janela()
 		enquanto(verdadeiro){
 			pintar_janela()
+			desenhando_painel()
 			g.renderizar()
 		}
 	}
@@ -22,13 +25,19 @@ programa
 		g.definir_cor(g.COR_BRANCO)
 		g.limpar()
 	}
+	funcao desenhando_painel(){
+		g.definir_cor(g.COR_AZUL)
+		g.desenhar_retangulo(0, 0, LARGURA_JANELA, 50,falso, verdadeiro)
+		g.definir_cor(g.COR_BRANCO)
+		g.desenhar_texto(10, 10, "Pontuação: "+pontuacao)
+	}
 }
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 308; 
+ * @POSICAO-CURSOR = 745; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
